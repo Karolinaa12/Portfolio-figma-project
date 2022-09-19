@@ -33,27 +33,20 @@ h2 {
   padding: 160px 20px;
 }
 
-.content-container h1 {
-  font-size: 64px;
-  line-height: 85px;
-}
-.content-container h2 {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 27px;
-  font-family: var(--default-font-family);
-}
-.content-container p {
-  font-size: 16px;
-  line-height: 30px;
-}
-
 .content {
   margin: 30px;
 }
 
 .content h1 {
   font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  font-family: var(--default-font-family);
 }
 
 .content h3 {
@@ -91,10 +84,6 @@ h2 {
   line-height: 27px;
 }
 
-.project-description {
-  margin: 120px 60px;
-}
-
 .btn-branding-outline {
   color: var(--branding-color);
   background-color: white;
@@ -105,10 +94,14 @@ h2 {
   line-height: 27px;
 }
 
+.project-description {
+  margin: 120px 60px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 56px;
   }
   h2 {
     font-size: 44px;
@@ -120,7 +113,7 @@ h2 {
     margin: 0;
     text-align: center;
   }
-  .content-container {
+  .content {
     padding: 0;
     text-align: center;
   }
