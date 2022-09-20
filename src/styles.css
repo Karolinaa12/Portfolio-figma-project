@@ -61,12 +61,13 @@ footer .email-link:hover {
 
 footer .contact-box {
   background-color: var(--secondary-color);
-  border-radius: 10px;
   padding: 30px 120px;
+  border-radius: 10px;
 }
 
 footer .contact-box p {
   font-size: 27px;
+  margin: 0;
 }
 
 footer .email-link {
