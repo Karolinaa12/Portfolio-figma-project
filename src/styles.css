@@ -136,6 +136,16 @@ footer .contact-links a:hover {
   font-weight: 400;
 }
 
+.content a {
+  text-decoration: none;
+  color: #000;
+}
+
+.content a:hover {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
 .hero h2 {
   font-size: 24px;
   line-height: 36px;
