@@ -193,6 +193,10 @@ footer .contact-links a:hover {
   h2 {
     font-size: 44px;
   }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
 
   .project-description {
     margin: 0;
